@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
 
@@ -39,21 +38,16 @@ const Home = () => {
                                 <div className="col-xxl-6 col-md-9 col-lg-7">
                                     <div className="tf__banner_text">
                                         <h1>
-                                            Hi, I'm ZYAN! Creative
+                                            Hi, I'm Hardik! Creative
                                             <span className="cd-headline rotate-1">
                                                 <span className="cd-words-wrapper">
-                                                    <b className="is-visible">Designer</b>
-                                                    <b>Coder</b>
+                                                    <b className="is-visible">Developer</b>
                                                     <b>Player</b>
                                                 </span>
                                             </span>
                                         </h1>
                                         <p>
-                                            I'm a passionate UI/UX designer with a mission to create
-                                            delightful and intuitive digital experiences. With a strong
-                                            foundation in design principles and a keen eye for detail, I
-                                            specialize in translating complex ideas into user-friendly
-                                            interfaces that captivate and engage.
+                                            Hello, I'm Hardik, a dedicated front-end developer with a passion for creating user-centric digital solutions. I blend creativity with technical prowess to craft aesthetically pleasing, functionally robust websites. Recently, I've delved into the world of data, seeking insights to enhance user experiences. Beyond the digital realm, music, sports, and poetry fuel my creativity. Let's shape the future of digital experiences together.
                                         </p>
                                         <ul>
                                             <li>
@@ -63,14 +57,7 @@ const Home = () => {
                                                     </i>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a
-                                                    className="banner_video_btn play_btn"
-                                                    href="https://www.youtube.com/watch?v=B-ytMSuwbf8"
-                                                ><i className="fa-sharp fa-solid fa-circle-play"></i> Watch
-                                                    the video
-                                                </a>
-                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -105,11 +92,7 @@ const Home = () => {
                                                     <div>
                                                         <h3>My Ambition</h3>
                                                         <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                                                            qui dolorem ipsum quia dolor sit amet
+                                                            I'm a dedicated front-end developer, skilled in creating user-centric digital solutions that seamlessly blend aesthetics with functionality. Recently, I've been focusing on leveraging data to enhance user experiences. My ambition is to push the boundaries of web development, harnessing the power of data for truly immersive online solutions.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -125,12 +108,7 @@ const Home = () => {
                                                     <div>
                                                         <h3>My Purpose</h3>
                                                         <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt. Neque porro quisquam est,
-                                                            qui dolorem ipsum quia dolor sit amet
-                                                        </p>
+                                                            My purpose is to transform the digital landscape by crafting web experiences that not only captivate users but also empower businesses through data-driven insights. I'm driven by the desire to push the boundaries of what's possible in web development, constantly seeking innovative solutions to create meaningful and immersive online experiences that make a difference.                                                        </p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -140,19 +118,19 @@ const Home = () => {
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="tf__about_img tf__about_img_2">
                                         <img
-                                            src="images/about_img_2.jpg"
-                                            alt="ZYAN"
+                                            src="images/bg/HardikShali.jpeg"
+                                            alt="HARDIK"
                                             className="img-fluid w-100" />
                                         <div className="tf__about_img_text">
                                             <i className="fa-sharp fa-solid fa-award"></i>
-                                            <h4>15+ <span>Years Of Experience</span></h4>
+                                            <h4>2+ <span>Years Of Experience</span></h4>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-
+                    {/* 
                     <section id="service" className="tf__service_2 pt_130 xs_pt_80 animation">
                         <div className="container">
                             <div className="row">
@@ -232,7 +210,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                     <section
                         id="skills"
@@ -292,7 +270,7 @@ const Home = () => {
                                                 aria-controls="pills-contact"
                                                 aria-selected="false"
                                             >
-                                                Biography
+                                                Certificates
                                             </button>
                                         </li>
                                         <li className="nav-item" role="presentation">
@@ -438,14 +416,11 @@ const Home = () => {
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
-                                                        <h3>MBA</h3>
-                                                        <h2>University of Dhaka</h2>
-                                                        <h4>2009 - 2012</h4>
+                                                        <h3>MASTER'S DEGREE IN INFORMATION TECHNOLOGY MSc (IT)</h3>
+                                                        <h2>J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)</h2>
+                                                        <h4>10/2020 - 07/2022</h4>
                                                         <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                            I achieved a CGPA of 7.2 during my master's program.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -454,25 +429,22 @@ const Home = () => {
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
-                                                        <h3>BBA</h3>
-                                                        <h2>University of Dhaka</h2>
-                                                        <h4>2009 - 2012</h4>
+                                                        <h3>BACHELOR'S DEGREE IN INFORMATION TECHNOLOGY BSc (IT)</h3>
+                                                        <h2>J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)</h2>
+                                                        <h4>07/2017 - 02/2020</h4>
                                                         <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                            I attained a CGPA of 6.5 in my bachelor's degree
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
+                                                {/* <div className="col-xl-6 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
                                                         <h3>HSC</h3>
-                                                        <h2>Govt Bangla College</h2>
-                                                        <h4>2009 - 2012</h4>
+                                                        <h2>Jeevan Bharti Educational School</h2>
+                                                        <h4>Mar-2017</h4>
                                                         <p>
                                                             Nemo enim ipsam voluptatem quia voluptas sit
                                                             aspernatur aut odit aut fugit sed thisnquia
@@ -487,8 +459,8 @@ const Home = () => {
                                                         data-trigerId="skills"
                                                     >
                                                         <h3>SSC</h3>
-                                                        <h2>Govt Bangla College</h2>
-                                                        <h4>2009 - 2012</h4>
+                                                        <h2>Jeevan Bharti Educational School</h2>
+                                                        <h4>Mar-2015</h4>
                                                         <p>
                                                             Nemo enim ipsam voluptatem quia voluptas sit
                                                             aspernatur aut odit aut fugit sed thisnquia
@@ -496,7 +468,7 @@ const Home = () => {
                                                             voluptatem sequi nesciunt
                                                         </p>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                         <div
@@ -507,55 +479,72 @@ const Home = () => {
                                             tabindex="0"
                                         >
                                             <div className="row education">
-                                                <div className="col-xl-6 col-lg-6">
+                                                <div className="col-xl-12 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
-                                                        <h3>MBA</h3>
-                                                        <h2>University of Dhaka</h2>
-                                                        <h4>2009 - 2012</h4>
+                                                        <h3>Udemy</h3>
+                                                        <h2>The Complete 2023 Web Development Bootcamp</h2>
+                                                        <h4>2023</h4>
                                                         <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                            This web development course offers hands-on experience in building 16 diverse projects to strengthen your portfolio, positioning you for junior developer roles. It covers a range of technologies, including JavaScript, React for frontend development, Node for backend development, and even Web3 development. By the end, you'll have the skills to create any website or web application, whether for personal projects, startups, or businesses, and you'll be prepared to work as a freelance web developer while mastering best practices in professional development.
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
+
+                                                <div className="col-xl-12 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
-                                                        <h3>BBA</h3>
-                                                        <h2>University of Dhaka</h2>
-                                                        <h4>2009 - 2012</h4>
+                                                        <h3>Udemy</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="https://www.udemy.com/certificate/UC-080ed108-bd9a-4f61-8275-db9c7b447901/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4", // Link text color
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a", // Text shadow color matches background
+                                                                    transition: "textShadow 0.3s"
+                                                                }}
+                                                            >
+                                                                The Complete Python Bootcamp From Zero to Hero in Python
+                                                            </a>
+                                                        </h2>
+
+
+                                                        <h4>Jun-2023</h4>
                                                         <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                            This comprehensive Python learning program covers a wide range of skills, from mastering both Python 2 and Python 3 to building games like Tic Tac Toe and Blackjack, and delving into advanced features such as the collections module and decorators. You'll also gain proficiency in Object Oriented Programming, learn to work with timestamps, create GUIs in the Jupyter Notebook system, and build a portfolio of Python projects for personal and professional use, enabling you to leverage Python for various tasks and projects.
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
-                                                    <div
-                                                        className="tf__single_skill_2 fade_bottom"
-                                                        data-trigerId="skills"
-                                                    >
-                                                        <h3>HSC</h3>
-                                                        <h2>Govt Bangla College</h2>
-                                                        <h4>2009 - 2012</h4>
-                                                        <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
-                                                        </p>
-                                                    </div>
+                                            </div>
+                                            <div className="col-xl-12 col-lg-6">
+                                                <div
+                                                    className="tf__single_skill_2 fade_bottom"
+                                                    data-trigerId="skills"
+                                                >
+                                                    <h3>Udemy</h3>
+                                                    <h2><a href="https://www.udemy.com/certificate/UC-4d5476ea-1f5c-44eb-a94b-a9d08accbe69/" target='_blank' style={{
+                                                        textDecoration: "none",
+                                                        color: "#0078d4", // Link text color
+                                                        cursor: "pointer",
+                                                        textShadow: "1px 1px 2px #09101a", // Text shadow color matches background
+                                                        transition: "textShadow 0.3s"
+                                                    }}>The Data Science Course: Complete Data Science Bootcamp 2023</a></h2>
+                                                    <h4>Jun-2023</h4>
+                                                    <p>
+
+                                                        This comprehensive data science course equips you with a diverse skill set to excel in the field. You'll learn statistical analysis, Python programming with essential libraries like NumPy, pandas, matplotlib, and Seaborn, advanced statistical techniques, Tableau for data visualization, and machine learning with tools like stats models and scikit-learn. Additionally, you'll delve into deep learning using TensorFlow, gain a deep understanding of the mathematics behind machine learning, and apply these skills to real-world business scenarios. By the end, you'll be well-versed in data preprocessing, regression, clustering, factor analysis, and the development of machine learning algorithms, all while honing your intuition for solving real-world data challenges.
+                                                    </p>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
+                                            </div>
+
+                                            {/* <div className="col-xl-6 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
@@ -570,83 +559,239 @@ const Home = () => {
                                                             voluptatem sequi nesciunt
                                                         </p>
                                                     </div>
-                                                </div>
-                                            </div>
+                                                </div> */}
+
                                         </div>
-                                        <div
-                                            className="tab-pane fade"
-                                            id="pills-disabled"
-                                            role="tabpanel"
-                                            aria-labelledby="pills-disabled-tab"
-                                            tabindex="0"
-                                        >
+                                        <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabIndex="0">
                                             <div className="row education">
-                                                <div className="col-xl-6 col-lg-6">
-                                                    <div
-                                                        className="tf__single_skill_2 fade_bottom"
-                                                        data-trigerId="skills"
-                                                    >
-                                                        <h3>MBA</h3>
-                                                        <h2>University of Dhaka</h2>
-                                                        <h4>2009 - 2012</h4>
-                                                        <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                <div className="col-xl-12 col-lg-6">
+                                                    <div className="tf__single_skill_2 fade_bottom" data-trigerId="skills">
+                                                        <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Implementation Consultant</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="https://www.dataio.co/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4",
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a",
+                                                                    transition: "textShadow 0.3s",
+                                                                }}
+                                                            >
+                                                                Dataio
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· On-Site</span>
+                                                        </h2>
+                                                        <h4>Apr 2023 - Sep 2023</h4>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            Embarked on a comprehensive exploration of MDM system architecture, seamlessly mastering its core
+                                                            components with an innate proficiency. Successfully completed rigorous MDM Implementation Consultancy Training, delving deeply into key
+                                                            strategies, solutions, and best practices. Possess a strong foundation in data governance frameworks, eager and well-prepared to apply this knowledge in real-world, data-centric initiatives for a forward-thinking organization.
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
-                                                    <div
-                                                        className="tf__single_skill_2 fade_bottom"
-                                                        data-trigerId="skills"
-                                                    >
-                                                        <h3>BBA</h3>
-                                                        <h2>University of Dhaka</h2>
-                                                        <h4>2009 - 2012</h4>
-                                                        <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                <div className="col-xl-12 col-lg-6">
+                                                    <div className="tf__single_skill_2 fade_bottom" data-trigerId="skills">
+                                                        <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Software Engineer</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="https://accubits.com/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4",
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a",
+                                                                    transition: "textShadow 0.3s",
+                                                                }}
+                                                            >
+                                                                Accubits Technologies Inc
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Remote</span>
+                                                        </h2>
+                                                        <h4>Dec-2021 - Apr-2023</h4>
+
+                                                        <p style={{ fontWeight: 'bold' }}>
+                                                            FutureGrail — Detail
+                                                        </p>
+                                                        {/* <p style={{ textAlign: 'left' }}>
+                                                            This project, named FutureGrail, is a portfolio product of “CoinFactory” that I developed using a combination of NextJS, Styled Components, Redux, API, JavaScript, Git, and Jira.
+                                                        </p> */}
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>CoinFactory Overview:</u><br />
+                                                            CoinFactory is a battle-tested, self-hosted, and ultra-secure ICO platform that has successfully hosted more than ten ICOs. It boasts features such as referral programs, bounty programs, logging reporting, and end-to-end customization options to give your ICO platform a unique look.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Technology Stack:</u><br />
+                                                            Throughout the development process, I utilized NextJS for server-side rendering and Redux for state management. Styled Components were used to create a visually appealing and consistent user interface. API integration was also crucial to make the platform dynamic.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Collaboration and Project Management:</u><br />
+                                                            Collaboration was key during the project, and Git and Jira were used to manage and track progress. I prioritized tasks based on importance and worked with developers to identify and resolve software bugs. Additionally, I integrated third-party tools and components into the application and coordinated efficient large-scale software deployments.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Project Outcome:</u><br />
+                                                            The end result is a robust, scalable, modular, and API-centric infrastructure that delivers excellent results for our client, FutureGrail in Singapore. To keep the client updated, I delivered project reports and milestone updates to the supervisor.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Project Link:</u><br />
+                                                            You can check out the project at <a href="https://www.futuregrail.com/" target='_blank'>futuregrail.com</a>
+                                                        </p>
+
+                                                        <p style={{ fontWeight: 'bold' }}>
+                                                            HealthierU  — Detail
+                                                        </p>
+                                                        {/* <p style={{ textAlign: 'left' }}>
+                                                            I worked on a project for a Dubai-based client that involved using ReactJS, CSS, Material-UI, JavaScript, API, Git, and Jira.
+                                                        </p> */}
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>User Interface Design:</u><br />
+                                                            The goal was to create a responsive and visually appealing user interface that would provide a seamless experience to the end users. I utilized Material-UI components and CSS styling to create a consistent look and feel across the application.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>State Management and Interactivity:</u><br />
+                                                            Additionally, I used ReactJS to create reusable components and implemented state management using hooks to enhance the user experience. API integration was crucial to the project's success.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Chat and Video Call Integration:</u><br />
+                                                            I also leveraged Agora SDK to implement chat and video call functionality to make the application more interactive.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Collaboration and Project Management:</u><br />
+                                                            Collaboration was vital, and I utilized Git and Jira to manage the project and communicate with my team members effectively. By prioritizing tasks and coordinating efficiently, we were able to deliver excellent results to the client.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}>
+                                                            <u>Project Link:</u><br />
+                                                            You can check out the project at <a href="https://healthieru.ae/" target='_blank'>healthieru.ae</a>
+                                                        </p>
+
+
+                                                    </div>
+                                                </div>
+                                                <div className="col-xl-12 col-lg-6">
+                                                    <div className="tf__single_skill_2 fade_bottom" data-trigerId="skills">
+                                                        <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>Java Developer</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="http://www.vnsguit.org/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4",
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a",
+                                                                    transition: "textShadow 0.3s",
+                                                                }}
+                                                            >
+                                                                J.P.Dawer Institute of Information Science and Technology - BSc (IT) & MSc (ICT)
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Apprenticeship</span>
+                                                        </h2>
+                                                        <h4>Mar-2021 - Jul-2021</h4>
+                                                        <p style={{ fontWeight: 'bold' }}>InsuranceHub - Project Conversion</p>
+                                                        <p style={{ textAlign: 'left' }}><u>Project Overview:</u><br />
+                                                            This project involved the conversion of the existing InsuranceHub project, which was developed in DotNet, into Java. The aim was to replicate the functionality of the original project using Java technologies.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Technology Stack:</u><br />
+                                                            The new project utilized Java Enterprise Edition (JavaEE) and JavaServer Faces (JSF) to create a server-side web application. HTML, CSS, and JavaScript were used to create a responsive and visually appealing user interface. SQL was used for database management.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Code Migration:</u><br />
+                                                            The project involved migrating the existing codebase from DotNet to Java while ensuring that all functionalities remained intact. The team worked on prioritizing tasks and completing them in order of importance. They also worked on identifying and removing software bugs to ensure a smooth transition from the old project to the new one.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Admin Panel:</u><br />
+                                                            The Admin Panel for H&T Insurance allows the management of various aspects related to insurance policies and customer feedback. The panel enables admins to manage the insurance companies and hospitals that are associated with InsuranceHub. It provides the ability to add, update, or delete different types of insurance policies.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Customer Interaction:</u><br />
+                                                            In addition, the panel displays customer feedback and inquiries, providing valuable insights into customer needs and concerns. Admins can also manage customer accounts, including the status of payments for various policies.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Client Panel:</u><br />
+                                                            The Client Panel allows customers to sign in and log in to their accounts, where they can browse through different policies for term and health insurance. They can select a policy as per their requirements, provide necessary details, and make payments online. Customers can only select one policy at a time, and the panel provides an Invoice and Purchase History feature to keep track of transactions.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Technology Stack for User Experience:</u><br />
+                                                            The panel uses JakartaEE, JSF, HTML, CSS, JavaScript, and SQL technologies to create a seamless user experience. The use of these technologies ensures that the system is efficient, secure, and easy to use. Customers can also update their profiles, ensuring that their details are up-to-date and accurate. Overall, the system provides a comprehensive and efficient solution for managing insurance policies and customer accounts.
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
-                                                    <div
-                                                        className="tf__single_skill_2 fade_bottom"
-                                                        data-trigerId="skills"
-                                                    >
-                                                        <h3>HSC</h3>
-                                                        <h2>Govt Bangla College</h2>
-                                                        <h4>2009 - 2012</h4>
-                                                        <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                <div className="col-xl-12 col-lg-6">
+                                                    <div className="tf__single_skill_2 fade_bottom" data-trigerId="skills">
+                                                        <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>.NET Developer</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="http://www.galaxydev.in/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4",
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a",
+                                                                    transition: "textShadow 0.3s",
+                                                                }}
+                                                            >
+                                                                Galaxy Developers
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Internship</span>
+                                                        </h2>
+                                                        <h4>Dec-2020 - Feb-2021</h4>
+                                                        <p style={{ fontWeight: 'bold' }}>InsuranceHub — Detail</p>
+                                                        <p style={{ textAlign: 'left' }}><u>Project Modules:</u><br />
+                                                            The website comprises two main modules, namely Admin and Customer. The Admin module enables the management of policies and payment processes. Additionally, the Admin module can be utilized as an intermediary software by agents to provide policies to customers. The Customer module allows customers to purchase policies and make payments as per their chosen policy.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Database Management:</u><br />
+                                                            All user information files are stored in a centralized database that is managed by the system. The convenience and speed of purchasing insurance online are unparalleled, allowing customers to buy policies from anywhere in the world at any time.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Profile Management:</u><br />
+                                                            This system offers profile management for all policyholders, along with an interface that provides customers with easy access to their policy details. Payment processes are similar to e-commerce transactions, and customers can easily pay their policies online. This hassle-free process is completed in minimal time, reducing overall costs.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Eliminating Commissions:</u><br />
+                                                            Directly buying from the insurance company eliminates the agent's commission, and the paperless process saves costs. The system offers customers information about new and existing policies online.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Development Process:</u><br />
+                                                            Tasks were prioritized and completed based on their level of importance, with collaboration between the team and developers to identify and resolve software bugs. Technologies used include C#.NET, HTML, CSS, JavaScript, and SQL.
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
-                                                    <div
-                                                        className="tf__single_skill_2 fade_bottom"
-                                                        data-trigerId="skills"
-                                                    >
-                                                        <h3>SSC</h3>
-                                                        <h2>Govt Bangla College</h2>
-                                                        <h4>2009 - 2012</h4>
-                                                        <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
+                                                <div className="col-xl-12 col-lg-6">
+                                                    <div className="tf__single_skill_2 fade_bottom" data-trigerId="skills">
+                                                        <h3 style={{ fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>PHP Developer</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="https://innovativeiteration.com/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4",
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a",
+                                                                    transition: "textShadow 0.3s",
+                                                                }}
+                                                            >
+                                                                Innovative Iteration Software Solutions
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Internship</span>
+                                                        </h2>
+                                                        <h4>Feb-2020 - May-2020</h4>
+                                                        <p style={{ fontWeight: 'bold' }}>CarCare — Detail</p>
+                                                        <p style={{ textAlign: 'left' }}><u>Project Overview:</u><br />
+                                                            I developed a Car Service Management system called CarCare that provides customers with low-cost four-wheel vehicle services. The system allows customers to access a range of service centers without needing to leave their homes.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Features:</u><br />
+                                                            CarCare enables various service center owners to register their centers, and customers can choose from a variety of service centers based on their requirements. To enhance the customer experience, an Online Payment module has been implemented, making the payment process quick and secure.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Development Process:</u><br />
+                                                            Throughout the development process, I prioritized tasks to ensure that the most critical issues were addressed first. I worked with developers to identify and remove software bugs and analyzed the source code to identify functionality issues. To create an intuitive and visually appealing user interface, I utilized CSS, JS, and BOOTSTRAP 4.
+                                                        </p>
+                                                        <p style={{ textAlign: 'left' }}><u>Technologies Used:</u><br />
+                                                            The project was developed using Sublime Text 3 as the development tool, Core PHP as the technology, and MYSQL Server as the backend. The end result is a user-friendly and efficient system that provides customers with a range of affordable and convenient car service options.
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
+
+
+
                                     </div>
                                 </div>
                             </div>
@@ -803,7 +948,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <section id="blog" className="tf__blog_2 pt_120 xs_pt_80 pb_120 xs_pb_80">
+                    {/* <section id="blog" className="tf__blog_2 pt_120 xs_pt_80 pb_120 xs_pb_80">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-8 m-auto mb_30">
@@ -1011,15 +1156,15 @@ const Home = () => {
                                 </form>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                     <div className="footer_2_copyright_area mt_120 xs_mt_80">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <div className="tf__footer_copyright">
-                                        <p>© CodeeFly 2023 | All Rights Reserved</p>
-                                        <ul>
+                                        <p>© Hardik Shali 2023</p>
+                                        {/* <ul>
                                             <li>
                                                 <a href="#" className="text_hover_animaiton"
                                                 >Trams & Condition
@@ -1033,7 +1178,7 @@ const Home = () => {
                                             <li>
                                                 <a href="#" className="text_hover_animaiton">Sitemap</a>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>

@@ -9,7 +9,7 @@ const NavMenu = () => {
             </span>
 
             <a className="logo_2" href="index_2.html">
-                <img src="images/logo2.png" alt="ZAYAN" className="img-fluid w-100" />
+                <img src="images/logo2.png" alt="HARDIK" className="img-fluid w-100" />
             </a>
 
             <ul id="list-example" className="list-group">
@@ -41,7 +41,7 @@ const NavMenu = () => {
                         About Me
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#service"
@@ -53,7 +53,7 @@ const NavMenu = () => {
                                 className="img-fluid w-100 svg" /></span>
                         Service
                     </a>
-                </li>
+                </li> */}
                 <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
@@ -77,7 +77,7 @@ const NavMenu = () => {
                         portfolio
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#blog"
@@ -89,8 +89,8 @@ const NavMenu = () => {
                                 className="img-fluid w-100 svg" /></span>
                         blog
                     </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#contact"
@@ -102,7 +102,7 @@ const NavMenu = () => {
                                 className="img-fluid w-100 svg" /></span>
                         Contact
                     </a>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )
