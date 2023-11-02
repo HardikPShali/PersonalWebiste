@@ -462,7 +462,14 @@ const Home = () => {
                                                             <span style={{ marginLeft: '0.5rem' }}>· Surat,India</span>
                                                         </h2>
                                                         <h4>10/2020 - 07/2022</h4>
-                                                        <p>
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             I achieved a CGPA of 7.2 during my master's program.
                                                         </p>
                                                     </div>
@@ -491,7 +498,14 @@ const Home = () => {
                                                         </h2>
 
                                                         <h4>07/2017 - 02/2020</h4>
-                                                        <p>
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             I attained a CGPA of 6.5 in my bachelor's degree.
                                                         </p>
                                                     </div>
@@ -560,7 +574,14 @@ const Home = () => {
                                                             </a>
                                                         </h2>
                                                         <h4>Mar-2023</h4>
-                                                        <p>
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             This web development course offers hands-on experience in building 16 diverse projects to strengthen your portfolio, positioning you for junior developer roles. It covers a range of technologies, including JavaScript, React for frontend development, Node for backend development, and even Web3 development. By the end, you'll have the skills to create any website or web application, whether for personal projects, startups, or businesses, and you'll be prepared to work as a freelance web developer while mastering best practices in professional development.
                                                         </p>
                                                     </div>
@@ -590,7 +611,14 @@ const Home = () => {
 
 
                                                         <h4>Jun-2023</h4>
-                                                        <p>
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             This comprehensive Python learning program covers a wide range of skills, from mastering both Python 2 and Python 3 to building games like Tic Tac Toe and Blackjack, and delving into advanced features such as the collections module and decorators. You'll also gain proficiency in Object Oriented Programming, learn to work with timestamps, create GUIs in the Jupyter Notebook system, and build a portfolio of Python projects for personal and professional use, enabling you to leverage Python for various tasks and projects.
                                                         </p>
                                                     </div>
@@ -610,7 +638,14 @@ const Home = () => {
                                                         transition: "textShadow 0.3s"
                                                     }}>The Data Science Course: Complete Data Science Bootcamp 2023</a></h2>
                                                     <h4>Jun-2023</h4>
-                                                    <p>
+                                                    <p style={{
+                                                        fontSize: '14px',
+                                                        lineHeight: '1.5',
+                                                        textAlign: 'left',
+                                                        maxHeight: '150px',
+                                                        overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                        whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                    }}>
 
                                                         This comprehensive data science course equips you with a diverse skill set to excel in the field. You'll learn statistical analysis, Python programming with essential libraries like NumPy, pandas, matplotlib, and Seaborn, advanced statistical techniques, Tableau for data visualization, and machine learning with tools like stats models and scikit-learn. Additionally, you'll delve into deep learning using TensorFlow, gain a deep understanding of the mathematics behind machine learning, and apply these skills to real-world business scenarios. By the end, you'll be well-versed in data preprocessing, regression, clustering, factor analysis, and the development of machine learning algorithms, all while honing your intuition for solving real-world data challenges.
                                                     </p>
