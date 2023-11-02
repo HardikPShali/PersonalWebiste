@@ -51,7 +51,7 @@ const Home = () => {
                                         </p>
                                         <ul>
                                             <li>
-                                                <a className="common_btn" href="#"
+                                                <a className="common_btn" href="www.google.com" target='_blank'
                                                 >Download Cv
                                                     <i className="fa-solid fa-arrow-down-to-line">
                                                     </i>
@@ -300,7 +300,7 @@ const Home = () => {
                                             aria-labelledby="pills-home-tab"
                                             tabindex="0"
                                         >
-                                            <div className="row">
+                                            {/* <div className="row">
                                                 <div className="col-xl-6 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
@@ -401,7 +401,7 @@ const Home = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div
                                             className="tab-pane fade"
@@ -411,29 +411,88 @@ const Home = () => {
                                             tabindex="0"
                                         >
                                             <div className="row education">
-                                                <div className="col-xl-6 col-lg-6">
+                                                <div className="col-xl-12 col-lg-6">
+                                                    <div
+                                                        className="tf__single_skill_2 fade_bottom"
+                                                        data-trigerId="skills"
+                                                    >
+                                                        <h3>MASTER'S DEGREE IN DATA SCIENCE</h3>
+                                                        <h2>
+                                                            <a
+                                                                href="https://www.iu.org/en-in/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=berlin"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4", // Link text color
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a", // Text shadow color matches background
+                                                                    transition: "textShadow 0.3s"
+                                                                }}
+                                                            >
+                                                                IU International University of Applied Sciences - Campus Berlin
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Berlin,Germany</span>
+                                                        </h2>
+
+                                                        <h4>04/2024 - 2025</h4>
+                                                        <p>
+                                                            In April 2024, I will begin my MSc in Data Science at a university in Berlin, Germany, as I embark on an exciting journey to further my expertise in this dynamic field.                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div className="col-xl-12 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
                                                         <h3>MASTER'S DEGREE IN INFORMATION TECHNOLOGY MSc (IT)</h3>
-                                                        <h2>J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)</h2>
+                                                        <h2>
+                                                            <a
+                                                                href="http://www.vnsguit.org/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4", // Link text color
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a", // Text shadow color matches background
+                                                                    transition: "textShadow 0.3s"
+                                                                }}
+                                                            >
+                                                                J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Surat,India</span>
+                                                        </h2>
                                                         <h4>10/2020 - 07/2022</h4>
                                                         <p>
                                                             I achieved a CGPA of 7.2 during my master's program.
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div className="col-xl-6 col-lg-6">
+                                                <div className="col-xl-12 col-lg-6">
                                                     <div
                                                         className="tf__single_skill_2 fade_bottom"
                                                         data-trigerId="skills"
                                                     >
                                                         <h3>BACHELOR'S DEGREE IN INFORMATION TECHNOLOGY BSc (IT)</h3>
-                                                        <h2>J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)</h2>
+                                                        <h2>
+                                                            <a
+                                                                href="http://www.vnsguit.org/"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4", // Link text color
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a", // Text shadow color matches background
+                                                                    transition: "textShadow 0.3s"
+                                                                }}
+                                                            >
+                                                                J.P.Dawer institute of Information Science and Technology - BSc (IT) & MSc (ICT)
+                                                            </a>
+                                                            <span style={{ marginLeft: '0.5rem' }}>· Surat,India</span>
+                                                        </h2>
+
                                                         <h4>07/2017 - 02/2020</h4>
                                                         <p>
-                                                            I attained a CGPA of 6.5 in my bachelor's degree
+                                                            I attained a CGPA of 6.5 in my bachelor's degree.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -485,8 +544,22 @@ const Home = () => {
                                                         data-trigerId="skills"
                                                     >
                                                         <h3>Udemy</h3>
-                                                        <h2>The Complete 2023 Web Development Bootcamp</h2>
-                                                        <h4>2023</h4>
+                                                        <h2>
+                                                            <a
+                                                                href="https://www.udemy.com/course/the-complete-web-development-bootcamp/?kw=The+Complete+2023+Web+Development+Bootcamp&src=sac"
+                                                                target='_blank'
+                                                                style={{
+                                                                    textDecoration: "none",
+                                                                    color: "#0078d4", // Link text color
+                                                                    cursor: "pointer",
+                                                                    textShadow: "1px 1px 2px #09101a", // Text shadow color matches background
+                                                                    transition: "textShadow 0.3s"
+                                                                }}
+                                                            >
+                                                                The Complete 2023 Web Development Bootcamp
+                                                            </a>
+                                                        </h2>
+                                                        <h4>Mar-2023</h4>
                                                         <p>
                                                             This web development course offers hands-on experience in building 16 diverse projects to strengthen your portfolio, positioning you for junior developer roles. It covers a range of technologies, including JavaScript, React for frontend development, Node for backend development, and even Web3 development. By the end, you'll have the skills to create any website or web application, whether for personal projects, startups, or businesses, and you'll be prepared to work as a freelance web developer while mastering best practices in professional development.
                                                         </p>
@@ -543,24 +616,6 @@ const Home = () => {
                                                     </p>
                                                 </div>
                                             </div>
-
-                                            {/* <div className="col-xl-6 col-lg-6">
-                                                    <div
-                                                        className="tf__single_skill_2 fade_bottom"
-                                                        data-trigerId="skills"
-                                                    >
-                                                        <h3>SSC</h3>
-                                                        <h2>Govt Bangla College</h2>
-                                                        <h4>2009 - 2012</h4>
-                                                        <p>
-                                                            Nemo enim ipsam voluptatem quia voluptas sit
-                                                            aspernatur aut odit aut fugit sed thisnquia
-                                                            consequuntur magni dolores eos qui ratione
-                                                            voluptatem sequi nesciunt
-                                                        </p>
-                                                    </div>
-                                                </div> */}
-
                                         </div>
                                         <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabIndex="0">
                                             <div className="row education">
@@ -584,7 +639,14 @@ const Home = () => {
                                                             <span style={{ marginLeft: '0.5rem' }}>· On-Site</span>
                                                         </h2>
                                                         <h4>Apr 2023 - Sep 2023</h4>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             Embarked on a comprehensive exploration of MDM system architecture, seamlessly mastering its core
                                                             components with an innate proficiency. Successfully completed rigorous MDM Implementation Consultancy Training, delving deeply into key
                                                             strategies, solutions, and best practices. Possess a strong foundation in data governance frameworks, eager and well-prepared to apply this knowledge in real-world, data-centric initiatives for a forward-thinking organization.
@@ -615,56 +677,59 @@ const Home = () => {
                                                         <p style={{ fontWeight: 'bold' }}>
                                                             FutureGrail — Detail
                                                         </p>
-                                                        {/* <p style={{ textAlign: 'left' }}>
-                                                            This project, named FutureGrail, is a portfolio product of “CoinFactory” that I developed using a combination of NextJS, Styled Components, Redux, API, JavaScript, Git, and Jira.
-                                                        </p> */}
-                                                        <p style={{ textAlign: 'left' }}>
+
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             <u>CoinFactory Overview:</u><br />
-                                                            CoinFactory is a battle-tested, self-hosted, and ultra-secure ICO platform that has successfully hosted more than ten ICOs. It boasts features such as referral programs, bounty programs, logging reporting, and end-to-end customization options to give your ICO platform a unique look.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            CoinFactory is a battle-tested, self-hosted, and ultra-secure ICO platform that has successfully hosted more than ten ICOs. It boasts features such as referral programs, bounty programs, logging reporting, and end-to-end customization options to give your ICO platform a unique look.<br /><br />
+
                                                             <u>Technology Stack:</u><br />
-                                                            Throughout the development process, I utilized NextJS for server-side rendering and Redux for state management. Styled Components were used to create a visually appealing and consistent user interface. API integration was also crucial to make the platform dynamic.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            Throughout the development process, I utilized NextJS for server-side rendering and Redux for state management. Styled Components were used to create a visually appealing and consistent user interface. API integration was also crucial to make the platform dynamic.<br /><br />
+
                                                             <u>Collaboration and Project Management:</u><br />
-                                                            Collaboration was key during the project, and Git and Jira were used to manage and track progress. I prioritized tasks based on importance and worked with developers to identify and resolve software bugs. Additionally, I integrated third-party tools and components into the application and coordinated efficient large-scale software deployments.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            Collaboration was key during the project, and Git and Jira were used to manage and track progress. I prioritized tasks based on importance and worked with developers to identify and resolve software bugs. Additionally, I integrated third-party tools and components into the application and coordinated efficient large-scale software deployments.<br /><br />
+
                                                             <u>Project Outcome:</u><br />
-                                                            The end result is a robust, scalable, modular, and API-centric infrastructure that delivers excellent results for our client, FutureGrail in Singapore. To keep the client updated, I delivered project reports and milestone updates to the supervisor.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            The end result is a robust, scalable, modular, and API-centric infrastructure that delivers excellent results for our client, FutureGrail in Singapore. To keep the client updated, I delivered project reports and milestone updates to the supervisor.<br /><br />
+
                                                             <u>Project Link:</u><br />
                                                             You can check out the project at <a href="https://www.futuregrail.com/" target='_blank'>futuregrail.com</a>
                                                         </p>
 
+
                                                         <p style={{ fontWeight: 'bold' }}>
                                                             HealthierU  — Detail
                                                         </p>
-                                                        {/* <p style={{ textAlign: 'left' }}>
-                                                            I worked on a project for a Dubai-based client that involved using ReactJS, CSS, Material-UI, JavaScript, API, Git, and Jira.
-                                                        </p> */}
-                                                        <p style={{ textAlign: 'left' }}>
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
                                                             <u>User Interface Design:</u><br />
-                                                            The goal was to create a responsive and visually appealing user interface that would provide a seamless experience to the end users. I utilized Material-UI components and CSS styling to create a consistent look and feel across the application.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            The goal was to create a responsive and visually appealing user interface that would provide a seamless experience to the end users. I utilized Material-UI components and CSS styling to create a consistent look and feel across the application.<br /><br />
+
                                                             <u>State Management and Interactivity:</u><br />
-                                                            Additionally, I used ReactJS to create reusable components and implemented state management using hooks to enhance the user experience. API integration was crucial to the project's success.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            Additionally, I used ReactJS to create reusable components and implemented state management using hooks to enhance the user experience. API integration was crucial to the project's success.<br /><br />
+
                                                             <u>Chat and Video Call Integration:</u><br />
-                                                            I also leveraged Agora SDK to implement chat and video call functionality to make the application more interactive.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            I also leveraged Agora SDK to implement chat and video call functionality to make the application more interactive.<br /><br />
+
                                                             <u>Collaboration and Project Management:</u><br />
-                                                            Collaboration was vital, and I utilized Git and Jira to manage the project and communicate with my team members effectively. By prioritizing tasks and coordinating efficiently, we were able to deliver excellent results to the client.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}>
+                                                            Collaboration was vital, and I utilized Git and Jira to manage the project and communicate with my team members effectively. By prioritizing tasks and coordinating efficiently, we were able to deliver excellent results to the client.<br /><br />
+
                                                             <u>Project Link:</u><br />
                                                             You can check out the project at <a href="https://healthieru.ae/" target='_blank'>healthieru.ae</a>
                                                         </p>
+
 
 
                                                     </div>
@@ -690,27 +755,36 @@ const Home = () => {
                                                         </h2>
                                                         <h4>Mar-2021 - Jul-2021</h4>
                                                         <p style={{ fontWeight: 'bold' }}>InsuranceHub - Project Conversion</p>
-                                                        <p style={{ textAlign: 'left' }}><u>Project Overview:</u><br />
-                                                            This project involved the conversion of the existing InsuranceHub project, which was developed in DotNet, into Java. The aim was to replicate the functionality of the original project using Java technologies.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Technology Stack:</u><br />
-                                                            The new project utilized Java Enterprise Edition (JavaEE) and JavaServer Faces (JSF) to create a server-side web application. HTML, CSS, and JavaScript were used to create a responsive and visually appealing user interface. SQL was used for database management.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Code Migration:</u><br />
-                                                            The project involved migrating the existing codebase from DotNet to Java while ensuring that all functionalities remained intact. The team worked on prioritizing tasks and completing them in order of importance. They also worked on identifying and removing software bugs to ensure a smooth transition from the old project to the new one.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Admin Panel:</u><br />
-                                                            The Admin Panel for H&T Insurance allows the management of various aspects related to insurance policies and customer feedback. The panel enables admins to manage the insurance companies and hospitals that are associated with InsuranceHub. It provides the ability to add, update, or delete different types of insurance policies.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Customer Interaction:</u><br />
-                                                            In addition, the panel displays customer feedback and inquiries, providing valuable insights into customer needs and concerns. Admins can also manage customer accounts, including the status of payments for various policies.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Client Panel:</u><br />
-                                                            The Client Panel allows customers to sign in and log in to their accounts, where they can browse through different policies for term and health insurance. They can select a policy as per their requirements, provide necessary details, and make payments online. Customers can only select one policy at a time, and the panel provides an Invoice and Purchase History feature to keep track of transactions.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Technology Stack for User Experience:</u><br />
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
+                                                            <u>Project Overview:</u><br />
+                                                            This project involved the conversion of the existing InsuranceHub project, which was developed in DotNet, into Java. The aim was to replicate the functionality of the original project using Java technologies.<br /><br />
+
+                                                            <u>Technology Stack:</u><br />
+                                                            The new project utilized Java Enterprise Edition (JavaEE) and JavaServer Faces (JSF) to create a server-side web application. HTML, CSS, and JavaScript were used to create a responsive and visually appealing user interface. SQL was used for database management.<br /><br />
+
+                                                            <u>Code Migration:</u><br />
+                                                            The project involved migrating the existing codebase from DotNet to Java while ensuring that all functionalities remained intact. The team worked on prioritizing tasks and completing them in order of importance. They also worked on identifying and removing software bugs to ensure a smooth transition from the old project to the new one.<br /><br />
+
+                                                            <u>Admin Panel:</u><br />
+                                                            The Admin Panel for H&T Insurance allows the management of various aspects related to insurance policies and customer feedback. The panel enables admins to manage the insurance companies and hospitals that are associated with InsuranceHub. It provides the ability to add, update, or delete different types of insurance policies.<br /><br />
+
+                                                            <u>Customer Interaction:</u><br />
+                                                            In addition, the panel displays customer feedback and inquiries, providing valuable insights into customer needs and concerns. Admins can also manage customer accounts, including the status of payments for various policies.<br /><br />
+
+                                                            <u>Client Panel:</u><br />
+                                                            The Client Panel allows customers to sign in and log in to their accounts, where they can browse through different policies for term and health insurance. They can select a policy as per their requirements, provide necessary details, and make payments online. Customers can only select one policy at a time, and the panel provides an Invoice and Purchase History feature to keep track of transactions.<br /><br />
+
+                                                            <u>Technology Stack for User Experience:</u><br />
                                                             The panel uses JakartaEE, JSF, HTML, CSS, JavaScript, and SQL technologies to create a seamless user experience. The use of these technologies ensures that the system is efficient, secure, and easy to use. Customers can also update their profiles, ensuring that their details are up-to-date and accurate. Overall, the system provides a comprehensive and efficient solution for managing insurance policies and customer accounts.
                                                         </p>
+
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-12 col-lg-6">
@@ -734,21 +808,30 @@ const Home = () => {
                                                         </h2>
                                                         <h4>Dec-2020 - Feb-2021</h4>
                                                         <p style={{ fontWeight: 'bold' }}>InsuranceHub — Detail</p>
-                                                        <p style={{ textAlign: 'left' }}><u>Project Modules:</u><br />
-                                                            The website comprises two main modules, namely Admin and Customer. The Admin module enables the management of policies and payment processes. Additionally, the Admin module can be utilized as an intermediary software by agents to provide policies to customers. The Customer module allows customers to purchase policies and make payments as per their chosen policy.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Database Management:</u><br />
-                                                            All user information files are stored in a centralized database that is managed by the system. The convenience and speed of purchasing insurance online are unparalleled, allowing customers to buy policies from anywhere in the world at any time.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Profile Management:</u><br />
-                                                            This system offers profile management for all policyholders, along with an interface that provides customers with easy access to their policy details. Payment processes are similar to e-commerce transactions, and customers can easily pay their policies online. This hassle-free process is completed in minimal time, reducing overall costs.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Eliminating Commissions:</u><br />
-                                                            Directly buying from the insurance company eliminates the agent's commission, and the paperless process saves costs. The system offers customers information about new and existing policies online.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Development Process:</u><br />
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
+                                                            <u>Project Modules:</u><br />
+                                                            The website comprises two main modules, namely Admin and Customer. The Admin module enables the management of policies and payment processes. Additionally, the Admin module can be utilized as an intermediary software by agents to provide policies to customers. The Customer module allows customers to purchase policies and make payments as per their chosen policy.<br /><br />
+
+                                                            <u>Database Management:</u><br />
+                                                            All user information files are stored in a centralized database that is managed by the system. The convenience and speed of purchasing insurance online are unparalleled, allowing customers to buy policies from anywhere in the world at any time.<br /><br />
+
+                                                            <u>Profile Management:</u><br />
+                                                            This system offers profile management for all policyholders, along with an interface that provides customers with easy access to their policy details. Payment processes are similar to e-commerce transactions, and customers can easily pay their policies online. This hassle-free process is completed in minimal time, reducing overall costs.<br /><br />
+
+                                                            <u>Eliminating Commissions:</u><br />
+                                                            Directly buying from the insurance company eliminates the agent's commission, and the paperless process saves costs. The system offers customers information about new and existing policies online.<br /><br />
+
+                                                            <u>Development Process:</u><br />
                                                             Tasks were prioritized and completed based on their level of importance, with collaboration between the team and developers to identify and resolve software bugs. Technologies used include C#.NET, HTML, CSS, JavaScript, and SQL.
                                                         </p>
+
                                                     </div>
                                                 </div>
                                                 <div className="col-xl-12 col-lg-6">
@@ -772,18 +855,27 @@ const Home = () => {
                                                         </h2>
                                                         <h4>Feb-2020 - May-2020</h4>
                                                         <p style={{ fontWeight: 'bold' }}>CarCare — Detail</p>
-                                                        <p style={{ textAlign: 'left' }}><u>Project Overview:</u><br />
-                                                            I developed a Car Service Management system called CarCare that provides customers with low-cost four-wheel vehicle services. The system allows customers to access a range of service centers without needing to leave their homes.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Features:</u><br />
-                                                            CarCare enables various service center owners to register their centers, and customers can choose from a variety of service centers based on their requirements. To enhance the customer experience, an Online Payment module has been implemented, making the payment process quick and secure.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Development Process:</u><br />
-                                                            Throughout the development process, I prioritized tasks to ensure that the most critical issues were addressed first. I worked with developers to identify and remove software bugs and analyzed the source code to identify functionality issues. To create an intuitive and visually appealing user interface, I utilized CSS, JS, and BOOTSTRAP 4.
-                                                        </p>
-                                                        <p style={{ textAlign: 'left' }}><u>Technologies Used:</u><br />
+                                                        <p style={{
+                                                            fontSize: '14px',
+                                                            lineHeight: '1.5',
+                                                            textAlign: 'left',
+                                                            maxHeight: '150px',
+                                                            overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                            whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                                        }}>
+                                                            <u>Project Overview:</u><br />
+                                                            I developed a Car Service Management system called CarCare that provides customers with low-cost four-wheel vehicle services. The system allows customers to access a range of service centers without needing to leave their homes.<br /><br />
+
+                                                            <u>Features:</u><br />
+                                                            CarCare enables various service center owners to register their centers, and customers can choose from a variety of service centers based on their requirements. To enhance the customer experience, an Online Payment module has been implemented, making the payment process quick and secure.<br /><br />
+
+                                                            <u>Development Process:</u><br />
+                                                            Throughout the development process, I prioritized tasks to ensure that the most critical issues were addressed first. I worked with developers to identify and remove software bugs and analyzed the source code to identify functionality issues. To create an intuitive and visually appealing user interface, I utilized CSS, JS, and BOOTSTRAP 4.<br /><br />
+
+                                                            <u>Technologies Used:</u><br />
                                                             The project was developed using Sublime Text 3 as the development tool, Core PHP as the technology, and MYSQL Server as the backend. The end result is a user-friendly and efficient system that provides customers with a range of affordable and convenient car service options.
                                                         </p>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -798,7 +890,7 @@ const Home = () => {
                         </div>
                     </section>
 
-                    <section
+                    {/* <section
                         id="portfolio"
                         className="tf__portfolio tf__portfolio_2 mt_120 xs_mt_80"
                     >
@@ -808,7 +900,7 @@ const Home = () => {
                                     <div className="tf__section_heading">
                                         <h5 className="has-animation">my recent Portfolio</h5>
                                         <h2 className="has-animation">
-                                            Elevate your brand to new heights with our portfolio
+                                            Elevate your brand to new heights with my portfolio
                                             expertise
                                         </h2>
                                     </div>
@@ -930,138 +1022,158 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
 
                     <div className="tf__brand mt_120 xs_mt_80">
                         <div className="row">
                             <div className="col-12">
                                 <div className="marquee_animi">
                                     <ul>
-                                        <li>* PHP</li>
-                                        <li>* Pyrhon</li>
-                                        <li>* design</li>
-                                        <li>* world</li>
-                                        <li>* Development</li>
+                                        <li>* ReactJs</li>
+                                        <li>* Python</li>
+                                        <li>* Javascript</li>
+                                        <li>* Web Development</li>
+                                        <li>* Data Science</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    {/* <section id="blog" className="tf__blog_2 pt_120 xs_pt_80 pb_120 xs_pb_80">
+                    <section id="recommendation" className="tf__blog_2 pt_120 xs_pt_80 pb_120 xs_pb_80">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-8 m-auto mb_30">
                                     <div className="tf__section_heading">
-                                        <h5 className="has-animation">all blog</h5>
-                                        <h2 className="has-animation">
-                                            Rafting Unique Experiences Inspiring Connections
-                                        </h2>
+                                        <h5 className="has-animation">Recommendations</h5>
+                                        <p className="has-animation" style={{
+                                            fontSize: '18px',
+                                            lineHeight: '1.5',
+                                        }}>
+                                            Clients and colleagues have praised my dedication, expertise, and contributions in the field of IT, exemplified by their encouraging recommendations.
+                                        </p>
+
                                     </div>
                                 </div>
                             </div>
                             <div className="row animation">
                                 <div className="col-xl-4 col-md-6">
-                                    <div className="tf__slingle_blog_2 fade_left" data-trigerId="blog">
+                                    <div className="tf__slingle_blog_2 fade_left" data-trigerId="recommendation">
                                         <a
-                                            href="blog_details.html"
-                                            data-cursor="Read <br> More"
+                                            href="https://www.linkedin.com/in/tharun-abraham-elias-7644531b2/"
+                                            data-cursor="LinkedIn <br> Profile"
                                             className="tf__blog_img_2"
+                                            target='_blank'
                                         >
                                             <img
-                                                src="images/blog/4.jpg"
-                                                alt="blog"
+                                                src="images/recommendations/Tharun.jpg"
+                                                alt="img"
                                                 className="img-fluid w-100" />
-                                            <span>10 June</span>
+                                            <span>March 27, 2023</span>
                                         </a>
                                         <div className="tf__blog_text_2">
                                             <ul>
                                                 <li>
-                                                    <i className="fa-sharp fa-solid fa-circle-user"></i> By
-                                                    admin
-                                                </li>
-                                                <li>
-                                                    <i className="fa-sharp fa-solid fa-comments"></i> Comments
-                                                    (05)
+                                                    <i className="fa-sharp fa-solid fa-circle-user"></i> Project Manager
                                                 </li>
                                             </ul>
-                                            <a className="title" href="blog_details.html"
-                                            >Where Passion and Purpose Collide
+                                            <a className="title" data-cursor="Email"
+                                                target='_blank' href="mailto:tharunelias@gmail.com"
+                                            >Tharun Abraham Elias
                                             </a>
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and types
-                                                etting in our company here thisn designers give me more
-                                                design here […]
+                                            <p style={{
+                                                fontSize: '14px',
+                                                lineHeight: '1.5',
+                                                textAlign: 'left',
+                                                maxHeight: '150px',
+                                                overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                            }}>
+                                                It was a pleasure working with Hardik due to his work ethics and professional behaviour, but at the same time, having a fun and lovely attitude that shines across each conversation. You could visibly see his commitment during times of crisis, and I could have always expected nothing but the best effort from him when the situation demanded it. I would recommend him to any team that would like to have a committed and professional resource. Stay blessed.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-md-6">
-                                    <div className="tf__slingle_blog_2 fade_left" data-trigerId="blog">
+                                    <div className="tf__slingle_blog_2 fade_left" data-trigerId="recommendation">
                                         <a
-                                            href="blog_details.html"
-                                            data-cursor="Read <br> More"
+                                            href="https://www.linkedin.com/in/bearnithi/"
+                                            data-cursor="LinkedIn <br> Profile"
                                             className="tf__blog_img_2"
+                                            target='_blank'
                                         >
                                             <img
-                                                src="images/blog/5.jpg"
-                                                alt="blog"
+                                                src="images/recommendations/NithyaSmall.png"
+                                                alt="img"
                                                 className="img-fluid w-100" />
-                                            <span>10 June</span>
+                                            <span>March 28, 2023</span>
                                         </a>
                                         <div className="tf__blog_text_2">
                                             <ul>
                                                 <li>
-                                                    <i className="fa-sharp fa-solid fa-circle-user"></i> By
-                                                    admin
-                                                </li>
-                                                <li>
-                                                    <i className="fa-sharp fa-solid fa-comments"></i> Comments
-                                                    (05)
+                                                    <i className="fa-sharp fa-solid fa-circle-user"></i> Technical Team Lead
                                                 </li>
                                             </ul>
-                                            <a className="title" href="blog_details.html"
-                                            >Where Passion and Purpose Collide
+                                            <a className="title" href="mailto:bearnithi@gmail.com"
+                                                data-cursor="Email"
+                                                target='_blank'
+                                            >Nithya Rajan
                                             </a>
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and types
-                                                etting in our company here thisn designers give me more
-                                                design here […]
+                                            <p style={{
+                                                fontSize: '14px',
+                                                lineHeight: '1.5',
+                                                textAlign: 'left',
+                                                maxHeight: '150px',
+                                                overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                whiteSpace: 'pre-line', // Preserve line breaks in the text
+
+                                            }}>
+                                                I had the pleasure of working with Hardik for a year while he was a React Developer at Accubits Technologies. During this time, I witnessed his strong logic knowledge and impressive UI skills. Hardik's contributions to our healthcare product were invaluable, and he played a significant role in completing the authentication and appointment booking module in a timely manner.
+
+                                                Hardik's technical expertise in React was apparent from the start, and his ability to understand complex problems and create solutions was impressive. He was always willing to collaborate with the team and share his knowledge to improve the quality of our work. His commitment to delivering high-quality code was evident, and he always went the extra mile to ensure that everything was functioning as intended.
+
+                                                In addition to his technical abilities, I was impressed by Hardik's professionalism and work ethic. He was always punctual, reliable, and able to manage his time effectively. His positive attitude and willingness to take on new challenges made him a valuable member of our team.
+
+                                                Overall, I highly recommend Hardik for any future opportunities. With his strong logic knowledge, excellent UI skills, and proven ability to complete projects on time, I have no doubt that he will continue to be a valuable asset to any organization.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-md-6">
-                                    <div className="tf__slingle_blog_2 fade_left" data-trigerId="blog">
+                                    <div className="tf__slingle_blog_2 fade_left" data-trigerId="recommendation">
                                         <a
-                                            href="blog_details.html"
-                                            data-cursor="Read <br> More"
+                                            href="https://www.linkedin.com/in/jayakrishnan-a-v-528a16112/"
+                                            data-cursor="LinkedIn <br> Profile"
                                             className="tf__blog_img_2"
+                                            target='_blank'
                                         >
                                             <img
-                                                src="images/blog/6.jpg"
-                                                alt="blog"
+                                                src="images/recommendations/Jay.jpg"
+                                                alt="img"
                                                 className="img-fluid w-100" />
-                                            <span>10 June</span>
+                                            <span>April 3, 2023</span>
                                         </a>
                                         <div className="tf__blog_text_2">
                                             <ul>
                                                 <li>
-                                                    <i className="fa-sharp fa-solid fa-circle-user"></i> By
-                                                    admin
-                                                </li>
-                                                <li>
-                                                    <i className="fa-sharp fa-solid fa-comments"></i> Comments
-                                                    (05)
+                                                    <i className="fa-sharp fa-solid fa-circle-user"></i> Technical Lead
                                                 </li>
                                             </ul>
-                                            <a className="title" href="blog_details.html"
-                                            >Where Passion and Purpose Collide
+                                            <a className="title" data-cursor="Email"
+                                                target='_blank' href="mailto:jayakrishnanadiyalloor@gmail.com"
+                                            >Jayakrishnan A V
                                             </a>
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and types
-                                                etting in our company here thisn designers give me more
-                                                design here […]
+                                            <p style={{
+                                                fontSize: '14px',
+                                                lineHeight: '1.5',
+                                                textAlign: 'left',
+                                                maxHeight: '150px',
+                                                overflowY: 'auto', // Add this line to enable vertical scrolling
+                                                whiteSpace: 'pre-line', // Preserve line breaks in the text
+                                            }}>
+                                                Hardik is an extremely dedicated and talented professional who consistently demonstrates a strong work ethic and a commitment to excellence.
+                                                He is highly skilled in javascript, his attention to detail and ability to think creatively make him a valuable asset to any team. He is also a great communicator and team player,
+                                                always willing to collaborate and share his ideas to help move projects forward.
                                             </p>
                                         </div>
                                     </div>
@@ -1086,10 +1198,9 @@ const Home = () => {
                                         </span>
                                         <h3>Phone</h3>
                                         <p>
-                                            Loram ipsum eros justo, posuer oborti viverra laor house of
-                                            street
+                                            Personal Contact Number
                                         </p>
-                                        <a href="callto:12345664746846">123-45664-746846</a>
+                                        <a href="callto:+919724641610">+919724641610</a>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-md-6 col-lg-4">
@@ -1105,10 +1216,9 @@ const Home = () => {
                                         </span>
                                         <h3>Location</h3>
                                         <p>
-                                            Dhaka 102, m eros justo, posuer oborti viverra laor house of
-                                            street
+                                            Surat, Gujarat, India
                                         </p>
-                                        <a href="#">View on map</a>
+                                        <a target='_blank' href="https://www.google.com/maps/search/surat+gujarat+india+map+link/@21.0732501,72.4888589,9z/data=!3m1!4b1?entry=ttu">View on map</a>
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-md-6 col-lg-4">
@@ -1124,16 +1234,15 @@ const Home = () => {
                                         </span>
                                         <h3>Monday - Sunday</h3>
                                         <p>
-                                            Dhaka 102, m eros justo, posuer oborti viverra laor house of
-                                            street
+                                            Work Email
                                         </p>
-                                        <a href="mailto:hfavouriteemail@gmail.com"
-                                        >hfavouriteemail@gmail.com
+                                        <a href="mailto:hardikshali1612@gmail.com"
+                                        >hardikshali1612@gmail.com
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="contact_form_2">
+                            {/* <div className="contact_form_2">
                                 <form>
                                     <div className="row">
                                         <div className="col-lg-6">
@@ -1154,9 +1263,9 @@ const Home = () => {
                                     </div>
                                     <button type="submit">Submit</button>
                                 </form>
-                            </div>
+                            </div> */}
                         </div>
-                    </section> */}
+                    </section>
 
                     <div className="footer_2_copyright_area mt_120 xs_mt_80">
                         <div className="container">

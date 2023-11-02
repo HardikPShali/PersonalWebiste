@@ -64,7 +64,7 @@ const NavMenu = () => {
                         skills
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#portfolio"
@@ -76,20 +76,20 @@ const NavMenu = () => {
                                 className="img-fluid w-100 svg" /></span>
                         portfolio
                     </a>
-                </li>
-                {/* <li>
+                </li> */}
+                <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
-                        href="#blog"
+                        href="#recommendation"
                     >
-                        <span style={{ marginLeft: '-68px ' }}
+                        <span style={{ marginLeft: '-4px ' }}
                         ><img
                                 src="svg/quote-down-square.svg"
                                 alt="icon"
                                 className="img-fluid w-100 svg" /></span>
-                        blog
+                        Testimonials
                     </a>
-                </li> */}
+                </li>
                 {/* <li>
                     <a
                         className="list-group-item list-group-item-action text_hover_animaiton"
