@@ -18,10 +18,12 @@ const NavMenu = () => {
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#banner"
                     >
-                        <span>
-                            <img src="svg/home-2.svg" alt="icon" className="img-fluid w-100 svg" />
-                        </span>
-                        Home
+                        <div className="list-item-content">
+                            <span>
+                                <img src="svg/home-2.svg" alt="icon" className="img-fluid w-100 svg" />
+                            </span>
+                            Home
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -29,10 +31,12 @@ const NavMenu = () => {
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#about"
                     >
-                        <span>
-                            <img src="svg/clipboard.svg" alt="icon" className="img-fluid w-100 svg" />
-                        </span>
-                        About Me
+                        <div className="list-item-content">
+                            <span>
+                                <img src="svg/clipboard.svg" alt="icon" className="img-fluid w-100 svg" />
+                            </span>
+                            About Me
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -40,10 +44,12 @@ const NavMenu = () => {
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#skills"
                     >
-                        <span>
-                            <img src="svg/path.svg" alt="icon" className="img-fluid w-100 svg" />
-                        </span>
-                        Skills
+                        <div className="list-item-content">
+                            <span>
+                                <img src="svg/path.svg" alt="icon" className="img-fluid w-100 svg" />
+                            </span>
+                            Skills
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -51,10 +57,12 @@ const NavMenu = () => {
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#recommendation"
                     >
-                        <span>
-                            <img src="svg/quote-down-square.svg" alt="icon" className="img-fluid w-100 svg" />
-                        </span>
-                        Testimonials
+                        <div className="list-item-content">
+                            <span>
+                                <img src="svg/quote-down-square.svg" alt="icon" className="img-fluid w-100 svg" />
+                            </span>
+                            Testimonials
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -62,10 +70,12 @@ const NavMenu = () => {
                         className="list-group-item list-group-item-action text_hover_animaiton"
                         href="#contact"
                     >
-                        <span>
-                            <img src="svg/user-square.svg" alt="icon" className="img-fluid w-100 svg" />
-                        </span>
-                        Contact
+                        <div className="list-item-content">
+                            <span>
+                                <img src="svg/user-square.svg" alt="icon" className="img-fluid w-100 svg" />
+                            </span>
+                            Contact
+                        </div>
                     </a>
                 </li>
             </ul>

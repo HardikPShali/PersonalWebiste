@@ -13621,4 +13621,20 @@ fieldset:disabled .btn {
     }
 }
 
+.list-item-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    /* Prevent text from wrapping onto multiple lines */
+    min-width: 120px;
+    /* Set a minimum width that can accommodate the longest word */
+}
+
+.list-item-content span {
+    width: 30px;
+    /* Set the width of the icon container as needed */
+}
+
+
 /*# sourceMappingURL=bootstrap.min.css.map */
