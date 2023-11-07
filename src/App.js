@@ -1,6 +1,6 @@
-import Home from './home';
+import Home from './components/home';
 import './App.css';
-import Nav from './navmenu'
+import Nav from './components/navmenu'
 function App() {
   return (
     <div className="App">
