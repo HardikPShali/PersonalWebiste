@@ -13628,6 +13628,7 @@ fieldset:disabled .btn {
     white-space: nowrap;
     /* Prevent text from wrapping onto multiple lines */
     min-width: 120px;
+    font-size: 12px;
     /* Set a minimum width that can accommodate the longest word */
 }
 
