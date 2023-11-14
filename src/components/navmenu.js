@@ -1,6 +1,9 @@
 import React from 'react';
 
 const NavMenu = () => {
+    const handleLogoClick = () => {
+        window.location.reload()
+    }
     return (
         <nav className="main_menu_2">
             <span className="menu_2_icon">
@@ -8,8 +11,8 @@ const NavMenu = () => {
                 <i className="fa-light fa-xmark close_icon"></i>
             </span>
 
-            <a className="logo_2" href="index_2.html">
-                <img src="images/logoNew.png" alt="HARDIK" className="img-fluid w-100" />
+            <a className="logo_2" href="#" onClick={handleLogoClick}>
+                <img src="images/logoNew.png" alt="HARDIK" class="img-fluid w-100" />
             </a>
 
             <ul id="list-example" className="list-group">
@@ -61,7 +64,7 @@ const NavMenu = () => {
                             <span>
                                 <img src="svg/quote-down-square.svg" alt="icon" className="img-fluid w-100 svg" />
                             </span>
-                            Testimonials
+                            Recommendation
                         </div>
                     </a>
                 </li>

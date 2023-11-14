@@ -6,6 +6,7 @@
   .main_menu_2 {
     overflow: auto;
   }
+
   .tf__blog_text ul {
     gap: 10px;
   }
@@ -57,9 +58,11 @@
   .main_menu_2 {
     overflow: auto;
   }
+
   .tf__blog_text ul {
     gap: 10px;
   }
+
   /*==============================
      HOME PAGE START
     ==============================*/
@@ -105,9 +108,11 @@
   .tf__design_form {
     padding: 40px;
   }
+
   .tf__footer_content {
     align-items: start;
   }
+
   .tf__footer_content .icon {
     width: 70px;
     height: 70px;
@@ -222,6 +227,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
+
   /*==============================
      HOME PAGE START
     ==============================*/
@@ -276,17 +282,21 @@
   .tf__design_form {
     padding: 40px;
   }
+
   .tf__footer_content {
     align-items: start;
   }
+
   .tf__footer_content .icon {
     width: 70px;
     height: 70px;
     margin-right: 20px;
   }
+
   .tf__design_counter p {
     font-size: 16px;
   }
+
   /*==============================
      HOME PAGE END
     ==============================*/
@@ -425,6 +435,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
+
   /*==============================
      HOME PAGE START
     ==============================*/
@@ -575,15 +586,19 @@
   .tf__blog_img {
     height: 300px;
   }
+
   .tf__footer_content .text h3 {
     margin-bottom: 10px;
   }
+
   .tf__footer_content .text {
     width: 78%;
   }
+
   .tf__footer_content {
     align-items: start;
   }
+
   .tf__footer_content .icon {
     display: block;
     width: 75px;
@@ -777,9 +792,11 @@
     z-index: 1;
     display: none;
   }
+
   .tf__single_service_2 .text {
     margin-top: 75px;
   }
+
   .tf__skills_2 .nav .nav-item button {
     padding: 15px 30px;
     font-size: 15px;
@@ -820,6 +837,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
+
   /*==============================
      HOME PAGE START
     ==============================*/
@@ -975,15 +993,19 @@
   .tf__blog_img {
     height: 300px;
   }
+
   .tf__footer_content .text h3 {
     margin-bottom: 10px;
   }
+
   .tf__footer_content .text {
     width: 78%;
   }
+
   .tf__footer_content {
     align-items: start;
   }
+
   .tf__footer_content .icon {
     display: block;
     width: 75px;
@@ -1185,6 +1207,7 @@
     z-index: 1;
     display: none;
   }
+
   .tf__single_service_2 .text {
     margin-top: 75px;
   }
@@ -1222,6 +1245,7 @@
 }
 
 @media (max-width: 575.99px) {
+
   /*==============================
      HOME PAGE START
     ==============================*/
@@ -1326,6 +1350,7 @@
     font-size: 36px;
     line-height: 45px;
   }
+
   .tf__section_heading h2 br {
     display: none;
   }
@@ -1430,10 +1455,12 @@
   .tf__subscribe_text form input {
     padding: 20px 25px;
   }
+
   .tf__footer_content {
     justify-content: center;
     text-align: center;
   }
+
   .tf__footer_content .text {
     width: 100%;
     margin-top: 15px;
@@ -1445,6 +1472,7 @@
     height: 75px;
     margin-right: 0;
   }
+
   .tf__footer_content .text h3 {
     margin-bottom: 10px;
   }
@@ -1680,6 +1708,7 @@
     z-index: 1;
     display: none;
   }
+
   .tf__single_service_2 .text {
     margin-top: 75px;
   }

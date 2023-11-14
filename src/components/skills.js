@@ -88,7 +88,7 @@ const skills = () => {
                                 id="pills-home"
                                 role="tabpanel"
                                 aria-labelledby="pills-home-tab"
-                                tabindex="0"
+                                tabIndex="0"
                             >
                                 {/* <div className="row">
                                                 <div className="col-xl-6 col-lg-6">
@@ -198,7 +198,7 @@ const skills = () => {
                                 id="pills-profile"
                                 role="tabpanel"
                                 aria-labelledby="pills-profile-tab"
-                                tabindex="0"
+                                tabIndex="0"
                             >
                                 <div className="row education">
                                     <div className="col-xl-12 col-lg-6">
@@ -339,7 +339,7 @@ const skills = () => {
                                 id="pills-contact"
                                 role="tabpanel"
                                 aria-labelledby="pills-contact-tab"
-                                tabindex="0"
+                                tabIndex="0"
                             >
                                 <div className="row education">
                                     <div className="col-xl-12 col-lg-6">

@@ -391,7 +391,7 @@ button {
 }
 
 .main_menu .toggle_icon:hover {
-  /* color: var(--colorWhite); */
+  color: var(--colorWhite);
 }
 
 .main_menu .droap_menu {

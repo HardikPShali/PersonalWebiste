@@ -18,9 +18,9 @@ const contact = () => {
                             </span>
                             <h3>Phone</h3>
                             <p>
-                                Personal Contact Number
+                                My Contact Number
                             </p>
-                            <a href="callto:+919724641610">+919724641610</a>
+                            <a href="callto:+919724641610">Click Here</a>
                         </div>
                     </div>
                     <div className="col-xl-4 col-md-6 col-lg-4">
@@ -57,7 +57,67 @@ const contact = () => {
                                 Work Email
                             </p>
                             <a href="mailto:hardikshali1612@gmail.com"
-                            >hardikshali1612@gmail.com
+                            >Click Here
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 col-lg-4">
+                        <div
+                            className="tf__contact_2_text fade_left"
+                            data-trigerId="contact"
+                        >
+                            <span>
+                                <img
+                                    src="svg/send_mail.svg"
+                                    alt="contact"
+                                    className="img-fluid w-100 svg" />
+                            </span>
+                            <h3>My LinkedIn</h3>
+                            <p>
+                                LinkedIn Profile
+                            </p>
+                            <a target='_blank' href="https://www.linkedin.com/in/hardikshali/"
+                            >Click Here
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 col-lg-4">
+                        <div
+                            className="tf__contact_2_text fade_left"
+                            data-trigerId="contact"
+                        >
+                            <span>
+                                <img
+                                    src="svg/voice_phone.svg"
+                                    alt="contact"
+                                    className="img-fluid w-100 svg" />
+                            </span>
+                            <h3>WhatsApp</h3>
+                            <p>
+                                WhatsApp Number
+                            </p>
+                            <a target='_blank' href="https://wa.me/+919724641610"
+                            >Click Here
+                            </a>
+                        </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 col-lg-4">
+                        <div
+                            className="tf__contact_2_text fade_left"
+                            data-trigerId="contact"
+                        >
+                            <span>
+                                <img
+                                    src="svg/send_mail.svg"
+                                    alt="contact"
+                                    className="img-fluid w-100 svg" />
+                            </span>
+                            <h3>Github</h3>
+                            <p>
+                                Github Profile
+                            </p>
+                            <a target='_blank' href="https://github.com/HardikPShali"
+                            >Click Here
                             </a>
                         </div>
                     </div>

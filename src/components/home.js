@@ -32,7 +32,7 @@ const Home = () => {
                     data-bs-target="#list-example"
                     data-bs-smooth-scroll="true"
                     className="scrollspy-example"
-                    tabindex="0"
+                    tabIndex="0"
                 >
                     <Banner />
                     <AboutMe />
